@@ -1,4 +1,4 @@
-# Azure AZ-104 – Application Management & Networking Labs
+# Azure AZ-104 – Application & Network Management Labs
 
 This repository contains a structured, hands-on Azure lab series aligned with the **AZ-104 (Microsoft Azure Administrator)** certification and real-world **application management** scenarios.
 
