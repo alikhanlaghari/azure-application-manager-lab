@@ -18,25 +18,17 @@ This phase focuses on deploying a secure Azure Virtual Machine and automating ap
 
 ### Network Security Configuration
 
-Inbound traffic is controlled using Azure Network Security Groups (NSGs).
-HTTP (port 80) is explicitly allowed to enable access to the IIS web application.
+Inbound traffic is controlled using Azure Network Security Groups (NSGs). HTTP (port 80) is explicitly allowed to enable access to the IIS web application.
 
-Remote Desktop (RDP) access is temporarily enabled for administrative
-purposes during the lab phase. In a production environment, this would
-be restricted to specific IP addresses or replaced with Azure Bastion
-to reduce the attack surface.
+Remote Desktop (RDP) access is temporarily enabled for administrative purposes during the lab phase. In a production environment, this would be restricted to specific IP addresses or replaced with Azure Bastion to reduce the attack surface.
 
 ![Network Security Configuration](screenshots/nsg-inbound-rules.png)
 
 ### IIS Installation and Validation
 
-During validation, it was identified that IIS was not installed on the VM.
-The Web Server (IIS) role was installed using Server Manager, and services
-were verified to be running.
+During validation, it was identified that IIS was not installed on the VM. The Web Server (IIS) role was installed using Server Manager, and services were verified to be running.
 
-Both local and external access were tested to confirm successful deployment.
-This troubleshooting highlighted the importance of validating service
-installation in addition to infrastructure configuration.
+Both local and external access were tested to confirm successful deployment. This troubleshooting highlighted the importance of validating service installation in addition to infrastructure configuration.
 
 ![IIS Installed](screenshots/iis-role-installed-1.png)
 
@@ -56,9 +48,22 @@ installation in addition to infrastructure configuration.
 - Structured troubleshooting is critical for application reliability
 - Clear documentation improves operational transparency
 
+### Secure Administrative Access
+
+Administrative access to the virtual machine was controlled using
+Remote Desktop Protocol (RDP). During the lab phase, access was limited
+to trusted sources.
+
+In a production environment, public RDP access would be removed and
+replaced with Azure Bastion to provide secure, browser-based access
+without exposing the VM to the public internet.
+
+
 ## Outcome
 
 Phase 1 successfully established a secure and functional compute foundation
 by deploying a Windows Server VM, configuring network access, and hosting
 a web application using IIS. This phase provides a stable baseline for
 introducing advanced networking and security concepts in subsequent phases.
+
+
