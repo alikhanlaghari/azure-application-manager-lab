@@ -57,34 +57,6 @@ This phase demonstrates a common **enterprise remote-access pattern** and forms 
 
 ---
 
-## Repository Structure
-
-azure-az104-application-network-labs/
-│
-├── phase-1-compute/
-│ └── README.md
-│ └── screenshots/
-│
-├── phase-2-networking-security/
-│ └── README.md
-│ └── screenshots/
-│
-├── phase-3-hybrid-connectivity/
-│ ├── README.md
-│ └── screenshots/
-│
-└── README.md
-
-
-Each phase contains:
-- A dedicated README
-- Deployment evidence (screenshots)
-- Architecture explanations
-- Validation steps
-- Key learnings and outcomes
-
----
-
 ## Purpose of This Repository
 
 The goal of this project is to:
