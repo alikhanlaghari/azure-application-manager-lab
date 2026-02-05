@@ -1,6 +1,6 @@
 # Azure AZ-104 – Application & Network Management Labs
 
-This repository contains a structured, hands-on Azure lab series aligned with the **AZ-104 (Microsoft Azure Administrator)** certification and real-world **application management and infrastructure operations** scenarios.
+This repository demonstrates how application infrastructure is designed, secured, and operated in Azure using real-world, production-aligned scenarios.It contains a structured, hands-on Azure lab series aligned with the **AZ-104 (Microsoft Azure Administrator)** certification and real-world **application management and infrastructure operations** scenarios.
 
 The labs are designed to demonstrate **practical, explainable Azure skills** with a strong focus on security, reliability, and professional documentation practices.
 
