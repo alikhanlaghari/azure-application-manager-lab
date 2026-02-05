@@ -1,7 +1,7 @@
 # Phase 3 – Hybrid Connectivity – Point-to-Site VPN (Certificate-based)
 
 ## Overview
-This phase demonstrates secure hybrid connectivity using an Azure Point-to-Site (P2S) VPN with certificate-based authentication.
+This phase demonstrates how administrators and support teams securely access internal applications without exposing systems to the public internet.It demonstrates secure hybrid connectivity using an Azure Point-to-Site (P2S) VPN with certificate-based authentication.
 
 The goal is to enable a remote client to securely access Azure private resources over an encrypted tunnel without exposing virtual machines to the public internet.
 
